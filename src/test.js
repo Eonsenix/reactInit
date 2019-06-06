@@ -48,7 +48,7 @@ export default class Test extends React.Component{
     mixinLog.log()
   }
   render () {
-    let html = '<div>this is html</div>'
+    let html = '<div style="font-size:14px;">this is html</div>'
     let cssName = true
     const style1 = { // 放render外面也行
       header: {
